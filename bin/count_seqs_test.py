@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import seq_utils
 
 filename = 'python.fasta'
