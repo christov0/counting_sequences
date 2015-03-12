@@ -10,4 +10,5 @@ except IOError as e:
   print >>sys.stderr, "Error opening file {}: {}".format(filename, e.strerror)
 else:
   seq_count = seq_utils.count_seqs(input_file)
+  assert seq_count == 94
   print seq_count,"in",filename
